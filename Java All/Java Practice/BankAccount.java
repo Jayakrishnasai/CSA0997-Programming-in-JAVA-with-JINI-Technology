@@ -1,6 +1,18 @@
 import java.util.Scanner;
 
-class BankAccount {
+interface Depositable {
+    void deposit(double amount);
+}
+
+interface Withdrawable {
+    void withdraw(double amount);
+}
+
+interface Displayable {
+    void displayBalance();
+}
+
+class BankAccount implements Depositable, Withdrawable, Displayable {
     protected String accountType;
     protected double balance;
 
@@ -9,12 +21,14 @@ class BankAccount {
         this.balance = initialBalance;
     }
 
+    @Override
     public void deposit(double amount) {
         balance += amount;
         System.out.println("Deposited: " + amount);
         displayBalance();
     }
 
+    @Override
     public void withdraw(double amount) {
         if (balance - amount >= getMinimumBalance()) {
             balance -= amount;
@@ -25,6 +39,7 @@ class BankAccount {
         }
     }
 
+    @Override
     public void displayBalance() {
         System.out.println("Current Balance: " + balance);
     }
@@ -88,7 +103,7 @@ class SeniorCitizenAccount extends SavingsAccount {
     }
 }
 
-class BankingApplication {
+public class BankingApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -105,14 +120,14 @@ class BankingApplication {
         seniorCitizenAccount.displayBalance();
 
         // Demonstrate operations
-        savingsAccount.deposit(500);
-        savingsAccount.withdraw(200);
+        ((Depositable) savingsAccount).deposit(500.0);  // Use Depositable interface
+        ((Withdrawable) savingsAccount).withdraw(200.0); // Use Withdrawable interface
 
-        currentAccount.deposit(300);
-        currentAccount.withdraw(150);
+        ((Depositable) currentAccount).deposit(300.0);  // Use Depositable interface
+        ((Withdrawable) currentAccount).withdraw(150.0); // Use Withdrawable interface
 
-        seniorCitizenAccount.deposit(1000);
-        seniorCitizenAccount.withdraw(500);
+        ((Depositable) seniorCitizenAccount).deposit(1000.0);  // Use Depositable interface
+        ((Withdrawable) seniorCitizenAccount).withdraw(500.0);  // Use Withdrawable interface
 
         scanner.close();
     }
