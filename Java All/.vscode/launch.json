@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AnnualToMonthly",
+            "request": "launch",
+            "mainClass": "AnnualToMonthly",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "Bank",
+            "request": "launch",
+            "mainClass": "Bank",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "FindDuplicateNumbers",
+            "request": "launch",
+            "mainClass": "FindDuplicateNumbers",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "IntegerToRoman",
+            "request": "launch",
+            "mainClass": "IntegerToRoman",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "IntegerToRomanNum",
+            "request": "launch",
+            "mainClass": "IntegerToRomanNum",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "MergedSort",
+            "request": "launch",
+            "mainClass": "MergedSort",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "NumberToWords",
+            "request": "launch",
+            "mainClass": "NumberToWords",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumber",
+            "request": "launch",
+            "mainClass": "PrimeNumber",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "ReduceToZero",
+            "request": "launch",
+            "mainClass": "ReduceToZero",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "ReverseString",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "StudentGradesApplication",
+            "request": "launch",
+            "mainClass": "StudentGradesApplication",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "TaxCalculator",
+            "request": "launch",
+            "mainClass": "TaxCalculator",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "WordSentenceCounter",
+            "request": "launch",
+            "mainClass": "WordSentenceCounter",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "binarytohexa",
+            "request": "launch",
+            "mainClass": "binarytohexa",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "grade",
+            "request": "launch",
+            "mainClass": "grade",
+            "projectName": "Java All_1d57efe1"
+        },
+        {
+            "type": "java",
+            "name": "sample",
+            "request": "launch",
+            "mainClass": "sample",
+            "projectName": "Java All_1d57efe1"
+        }
+    ]
+}

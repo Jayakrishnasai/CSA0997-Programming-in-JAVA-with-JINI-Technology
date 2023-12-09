@@ -1,0 +1,83 @@
+8. Develop a JAVA code to display the balance. Include the following members:       
+•	Design a class to represent a bank account.
+•	Data  Members: Name of the depositor, Account number, Type of account(Savings/Current), Balance amount in the account(Minimum balance is Rs.500.00)               
+•	Methods: 
+1.	To read account number, Depositor name, Type of account.
+2.	To deposit an amount (Deposited amount should be added with it) 
+3.	To withdraw an amount after checking balance(Minimum balance must be Rs.500.00
+Note : Assume that balance amount = 10000
+Test Cases
+1.	100, Raja, S, 8000
+2.	Raja, 100, S, 9000
+3.	101, Rani, S, 12000
+4.	102, Ragu, W, 8000
+5.	103, Ravi, C, 10000
+
+14.	Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+SymbolValue
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
+For example, 2 is written as II in Roman numeral, just two ones added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II.
+Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:
+•	I can be placed before V (5) and X (10) to make 4 and 9. 
+•	X can be placed before L (50) and C (100) to make 40 and 90. 
+•	C can be placed before D (500) and M (1000) to make 400 and 900. Given a roman numeral, convert it to an integer.
+ 
+Example:
+Input: s = "III"
+Output: 3
+Test Case	Inputs
+1.		LVIII
+2.		MCMXCI
+3.		V
+4.		LZAII
+5.		MCCDTIV
+ 
+18.	Develop a programme that uses Multiple Inheritance concepts to compute a student's grades in six subjects. The total and aggregate are then calculated, and the student's grade is displayed. If the student achieves an aggregate of more than 75%, the grade is Distinction. If the aggregate is between 60 and 75, the grade is First Division. If the aggregate is between 50 and 60, the grade is Second Division. If the aggregate is between 40 and 50, the grade is Third Division. Otherwise, the grade is FAIL.
+Sample Input & Output:
+Enter the marks in python: 90
+Enter the marks in c programming: 91
+Enter the marks in Mathematics: 92
+Enter the marks in Physics: 93
+Enter the marks in Chemistry: 92
+Enter the marks in Professional Ethics: 93
+Total= 551
+Aggregate = 91.83
+Class: DISTINCTION
+
+Test Case
+Test Case	Inputs
+1.		18, 76,93,65,63,98
+2.		73,78,79,75,87,0
+3.		98,106,120,95,98,34
+4.		96,73, -85,95,84,98
+5.		78,59.8,76,79,97,67
+
+19.	Write a program to calculate tax given the following conditions:
+i.	If income is less than or equal to 2,50,000 then no tax
+ii.	If taxable income is 2,50,001 – 5,00,000 the charge 10% tax
+iii.	If taxable income is 5,00,001 – 10,00,000 the charge 20% tax
+iv.	If taxable income is above 10,00,001 then charge 30% tax
+Sample Input:
+Enter the income: 600000
+Sample Output:
+Taxable Income: 350000
+Tax= 35000
+Test Case
+Test Case	Inputs
+1.		400700
+2.		2789239
+3.		150000
+4.		00000
+5.		-125486
+
+20.	Develop a Java application to generate Electricity bill. Create a class with the following  members: Consumer no., consumer name, previous month reading, current month reading. Compute the bill amount using the following tariff.
+First 100 units – Rs. 1 per unit
+101-200 units – Rs. 2.50 per unit
+201 -500 units – Rs. 4 per unit
+> 501 units – Rs. 6 per unit

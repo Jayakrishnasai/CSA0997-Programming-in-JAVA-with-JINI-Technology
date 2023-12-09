@@ -1,0 +1,19 @@
+********** Overall Invoice with Details **********
+********** Item 1 Details **********
+Quantity: 2.0
+Unit Price: Rs. 55.0
+GST Schedule: 18% Rate
+GST Rate: 18.0%
+GST Amount: Rs. 19.8
+Total Amount (including GST): Rs. 129.8
+******************************
+********** Item 2 Details **********
+Quantity: 5.0
+Unit Price: Rs. 200.0
+GST Schedule: 0.25% Rate
+GST Rate: 0.25%
+GST Amount: Rs. 2.5
+Total Amount (including GST): Rs. 1002.5
+******************************
+Overall Total Amount (including GST) for all items: Rs. 1132.3
+*************************************
